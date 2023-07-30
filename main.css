@@ -8,14 +8,14 @@ body {
 }
 .slider-container {
   margin: 10px auto;
-  width: 900px;
+  max-width: 900px;
   height: 500px;
   position: relative;
   overflow: hidden;
 }
 .slider-container img {
   position: absolute;
-  width: 900px;
+  max-width: 100%;
   height: 500px;
   opacity: 0;
   transition: 1s;
@@ -39,7 +39,7 @@ body {
   border-radius: 6px;
 }
 .slider-controls {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   overflow: hidden;
 }
